@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "profile.html",
+        "use": "@vercel/html"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/profile.html"
+      }
+    ]
+  }
