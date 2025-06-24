@@ -1,15 +1,8 @@
 {
-    "version": 2,
-    "builds": [
+    "rewrites": [
       {
-        "src": "profile.html",
-        "use": "@vercel/html"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/profile.html"
+        "source": "/(.*)",
+        "destination": "obfprofile.html"
       }
     ]
   }
